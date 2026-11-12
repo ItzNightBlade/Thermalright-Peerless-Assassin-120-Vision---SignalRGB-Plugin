@@ -22,5 +22,5 @@ Built by reverse-engineering Thermalright's TRCC utility (`TRCC.exe` and `USBLCD
 
 1. Completely close **TRCC** (including from the system tray).
 2. Create the folder `%USERPROFILE%\Documents\WhirlwindFX\Plugins\Thermalright\`.
-3. Copy `thermalright_usbdisplay.js` into that folder.
+3. Copy `thermalright_pa120_vision.js` into that folder.
 4. Restart **SignalRGB** (or force-reload plugins). The display will appear under **Devices** as **Thermalright Peerless Assassin 120 Vision**.
