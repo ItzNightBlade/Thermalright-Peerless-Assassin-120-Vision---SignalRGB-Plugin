@@ -3,6 +3,12 @@
 
 Custom `rawusb` SignalRGB plugin for the **Thermalright Peerless Assassin 120 Vision** (2.8" 320×240 LCD), built to drive the display directly in SignalRGB without running Thermalright's TRCC software in the background.
 
+<p align="center">
+  <img width="260" alt="photo_1" src="https://github.com/user-attachments/assets/08774fc7-7b75-42e7-b548-2681f4a3ad7e" />
+  <img width="260" alt="photo_2" src="https://github.com/user-attachments/assets/5adad72b-1ac2-4f61-834b-4a9157751751" />
+  <img width="260" alt="photo_3" src="https://github.com/user-attachments/assets/2710beb4-9712-4548-9cf2-e49c81315b38" />
+</p>
+
 Built by reverse-engineering Thermalright's TRCC utility (`TRCC.exe` and `USBLCDNEW.dll` using ILSpy and dotPeek) to inspect the USB transfer routines (`FormCZTV` and `DCReadWriteAsync`) and map the WinUSB endpoints, init handshake, portrait framebuffer layout (`240×320`), and 512-byte bulk transfer chunking required by the Nuvoton controller (`0x0416:0x5302`).
 
 ## Protocol Summary
